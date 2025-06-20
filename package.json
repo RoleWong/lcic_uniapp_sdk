@@ -1,0 +1,74 @@
+{
+	"name": "腾讯云实时互动-教育版",
+	"id": "lcic_uniapp_sdk",
+	"version": "1.0.0",
+	"description": "腾讯云实时互动-教育版, 官方 uni-app Native 原生语言 SDK. 供使用 uni-app 开发的 iOS、Android 项目, 快速接入腾讯云实时互动-教育版.",
+	"_dp_type": "nativeplugin",
+	"_dp_nativeplugin": {
+		"android": {
+			"plugins": [{
+				"type": "module",
+				"name": "lcic_uniapp_sdk",
+				"class": "com.tencent.cloud.lcic_uniapp_sdk.LCICModule"
+			}],
+			"integrateType": "aar",
+			"dependencies": [
+				"com.facebook.fresco:fresco:1.13.0",
+				"com.tencent.edu:TCICSDK:1.8.9"
+			],
+			"compileOptions": {
+				"sourceCompatibility": "1.8",
+				"targetCompatibility": "1.8"
+			},
+			"abis": [
+				"armeabi-v7a",
+				"arm64-v8a"
+			],
+			"minSdkVersion": "21",
+			"useAndroidX": false,
+			"permissions": [
+				"android.permission.RECORD_AUDIO",
+				"android.permission.CAMERA",
+				"android.permission.WRITE_EXTERNAL_STORAGE"
+			]
+		},
+		"ios": {
+			"plugins": [{
+				"type": "module",
+				"name": "lcic_uniapp_sdk",
+				"class": "LCICModule"
+			}],
+			"integrateType": "framework",
+			"frameworks": [
+				"lcic_uniapp_sdk.framework",
+				"Masonry.framework",
+				"TXFFmpeg.framework",
+				"TXSoundTouch.framework",
+				"YYModel.framework",
+				"TXLiteAVSDK_Professional.framework",
+				"TCICSDK.framework",
+				"TIWCache.framework",
+				"TIWLogger.framework"
+			],
+			"embedFrameworks": [
+				"lcic_uniapp_sdk.framework",
+				"TXFFmpeg.framework",
+				"Masonry.framework",
+				"TXSoundTouch.framework",
+				"YYModel.framework",
+				"TXLiteAVSDK_Professional.framework",
+				"TCICSDK.framework",
+				"TIWCache.framework",
+				"TIWLogger.framework"
+			],
+			"embedSwift": false,
+			"privacies": [
+				"NSCameraUsageDescription",
+				"NSMicrophoneUsageDescription",
+				"NSPhotoLibraryAddUsageDescription",
+				"NSPhotoLibraryUsageDescription"
+			],
+			"deploymentTarget": "11.0"
+		}
+	}
+}

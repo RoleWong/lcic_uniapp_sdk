@@ -1,0 +1,6 @@
+framework module lcic_uniapp_sdk {
+  umbrella header "lcic-uniapp-sdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

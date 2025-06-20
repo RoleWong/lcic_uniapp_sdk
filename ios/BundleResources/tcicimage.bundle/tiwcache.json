@@ -1,0 +1,38 @@
+{
+    "resources": [
+        {
+            "version": "fd3e59eb82cdbe2753e5a4bb41d6b61781fe6daf",
+            "sdkAppId": "0",
+            "schoolId": "0",
+            "url": "https://class.qcloudclass.com/1.7.0/cache/offline_fd3e59eb82cdbe2753e5a4bb41d6b61781fe6daf.zip",
+            "files": {
+            },
+            "regexes": {
+                "https:\\/\\/dev\\-class\\.qcloudclass\\.com\\/1.7.0\\/cache/(.+)": "/unmatch/$1",
+                "https:\\/\\/dev\\-class\\.qcloudclass\\.com\\/1.7.0\\/(.+)": "$1",
+                "https:\\/\\/test\\-class\\.qcloudclass\\.com\\/1.7.0\\/cache/(.+)": "/unmatch/$1",
+                "https:\\/\\/test\\-class\\.qcloudclass\\.com\\/1.7.0\\/(.+)": "$1",
+                "https:\\/\\/pre\\-class\\.qcloudclass\\.com\\/1.7.0\\/cache/(.+)": "/unmatch/$1",
+                "https:\\/\\/pre\\-class\\.qcloudclass\\.com\\/1.7.0\\/(.+)": "$1",
+                "https:\\/\\/class\\.qcloudclass\\.com\\/1.7.0\\/cache/(.+)": "/unmatch/$1",
+                "https:\\/\\/class\\.qcloudclass\\.com\\/1.7.0\\/(.+)": "$1",
+                "https:\\/\\/res\\.qcloudclass\\.com\\/assets\\/(.+)": "/static/assets/$1",
+                "https:\\/\\/res\\.qcloudtiw\\.com\\/board\\/(.+)": "/static/libs/board/$1",
+                "https:\\/\\/log\\.qcloudtiw\\.com\\/(.+)": "/static/log/$1"
+            },
+            "media": {
+                "fragSize": 524288,
+                "supportFomats": "mp4|rmvb|avi|mov|flv|wmv|m3u8|mpeg|mp3|wav|pcm|aac|ogg"
+            },
+            "expired": 200,
+            "devBuildTime": 1661415331,
+            "domains": {
+                "www.xxx.com": [
+                    "www.aaa.com"
+                ]
+            }
+        }
+    ],
+    "interval": 1800,
+    "forceUpdate": 0
+}

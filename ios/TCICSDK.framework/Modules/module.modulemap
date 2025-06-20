@@ -1,0 +1,14 @@
+//
+//  module.modulemap
+//  TCICSDK
+//
+//  Created by Robin on 2024/5/16.
+//  Copyright © 2024 陈耀武. All rights reserved.
+//
+
+framework module TCICSDK {
+    header "TCICClassConfig.h"
+    header "TCICClassController.h"
+    header "TCICCustomDef.h"
+    export *
+}
