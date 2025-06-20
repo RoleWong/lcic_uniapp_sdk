@@ -1,4 +1,4 @@
-# lcic_uniapp_sdk
+# lcic-sdk-pro
 腾讯云实时互动-教育版, 官方 uni-app Native 原生语言 SDK. 供使用 uni-app 开发的 iOS、Android 项目, 快速接入腾讯云实时互动-教育版.
 
 ## 开发环境要求
@@ -104,7 +104,7 @@ X5 内核相对于系统 WebView，具有兼容性更好，速度更快等优势
 2. 初始化 X5 内核。进入课堂前，**必须先判断 X5 内核是否初始化完成。**onViewInitFinished 方法已经回调，初始化不需要重复调用，回调后可记录状态。
 
    ``` javascript
-   const lcicModule = uni.requireNativePlugin('lcic_uniapp_sdk');
+   const lcicModule = uni.requireNativePlugin('lcic-sdk-pro');
    
    lcicModule.initX5Core({
    						licenseKey: this.config.licenseKey
@@ -271,7 +271,7 @@ X5 内核相对于系统 WebView，具有兼容性更好，速度更快等优势
 > 
 
 ``` java
-const lcicModule = uni.requireNativePlugin('lcic_uniapp_sdk');
+const lcicModule = uni.requireNativePlugin('lcic-sdk-pro');
 
 lcicModule.joinClass({
 						schoolId: schoolId,
