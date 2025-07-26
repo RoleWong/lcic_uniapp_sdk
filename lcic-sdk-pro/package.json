@@ -14,7 +14,7 @@
 			"integrateType": "aar",
 			"dependencies": [
 				"com.facebook.fresco:fresco:1.13.0",
-				"com.tencent.edu:TCICSDK:1.8.9"
+				"com.tencent.edu:TCICSDK:1.8.12"
 			],
 			"compileOptions": {
 				"sourceCompatibility": "1.8",
