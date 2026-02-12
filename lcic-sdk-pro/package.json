@@ -6,6 +6,7 @@
 	"_dp_type": "nativeplugin",
 	"_dp_nativeplugin": {
 		"android": {
+            "extractNativeLibs": true,
 			"plugins": [{
 				"type": "module",
 				"name": "lcic-sdk-pro",
@@ -14,7 +15,7 @@
 			"integrateType": "aar",
 			"dependencies": [
 				"com.facebook.fresco:fresco:1.13.0",
-				"com.tencent.edu:TCICSDK:1.8.12"
+				"com.tencent.edu:TCICSDK:1.8.26"
 			],
 			"compileOptions": {
 				"sourceCompatibility": "1.8",

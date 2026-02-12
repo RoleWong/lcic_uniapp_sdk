@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy, nonnull) NSString *token;                                           // token,必传
 @property (nonatomic, assign) UInt32 schoolId;                                                  // 学校Id,必传
 @property (nonatomic, assign) UInt32 classId;                                                   // 课程ID,必传
+@property (nonatomic, copy, nullable) NSString *groupLiveCode;                                  // 分组直播的分组码,可选
 @property (nonatomic, strong, nullable) NSDictionary<NSString *, NSString *> *customParams;     // 自定义参数: 内部会自动将customParams内容接拼到query串, key-value均为NSString类型
 @property (nonatomic, strong, nullable) NSDictionary *jsParams;
 /// iOS16.4后，默认不可以DEBUG webview，若需要，则需将enableWebDebug设置为YES
