@@ -45,19 +45,15 @@
 				"Masonry.framework",
 				"TXFFmpeg.framework",
 				"TXSoundTouch.framework",
-				"YYModel.framework",
 				"TXLiteAVSDK_Professional.framework",
+				"YYModel.framework",
 				"TCICSDK.framework",
 				"TIWCache.framework",
 				"TIWLogger.framework"
 			],
 			"embedFrameworks": [
 				"lcic_uniapp_sdk.framework",
-				"TXFFmpeg.framework",
-				"Masonry.framework",
-				"TXSoundTouch.framework",
 				"YYModel.framework",
-				"TXLiteAVSDK_Professional.framework",
 				"TCICSDK.framework",
 				"TIWCache.framework",
 				"TIWLogger.framework"
